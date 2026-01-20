@@ -1,0 +1,138 @@
+/* ===== Page Wrapper ===== */
+.apply-wrapper {
+  min-height: 100vh;
+  background: #f4f6f9;
+  padding: 30px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== Title ===== */
+.stepper {
+  max-width: 1100px;
+  margin: 0 auto 25px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 18px;
+  text-align: center;
+}
+
+.stepper p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.stepper p::after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 3px;
+  background: #2563eb;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+/* ===== Form Card ===== */
+.form-card {
+  max-width: 1100px;
+  margin: auto;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.form-card input,
+.form-card select {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.form-card input:focus,
+.form-card select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px #2563eb;
+}
+
+/* ===== Buttons ===== */
+.primary-btn {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #1d4ed8;
+}
+
+/* ===== Hint ===== */
+.form-hint {
+  font-size: 12px;
+  color: #ef4444;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.required {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+/* ===== Result ===== */
+.result-box {
+  margin-top: 20px;
+  padding: 14px;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: 6px;
+}
+
+/* ===== Logout ===== */
+.apply-footer {
+  max-width: 1100px;
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+.logout-btn {
+  background: transparent;
+  border: 1px solid #ef4444;
+  color: #ef4444;
+  padding: 8px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #ef4444;
+  color: white;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 900px) {
+  .apply-wrapper {
+    padding: 20px;
+  }
+}
