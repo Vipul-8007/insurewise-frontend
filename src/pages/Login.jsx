@@ -39,7 +39,7 @@ export default function Login() {
         <div className="auth-card">
           <div className="auth-tabs">
             <button className="active">Login</button>
-            <Link to="/register">Signup</Link>
+            <Link to="/register">Register</Link>
           </div>
 
           <h2>Login Form</h2>
